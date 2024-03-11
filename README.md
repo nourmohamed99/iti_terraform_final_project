@@ -20,29 +20,34 @@ The ITI Terraform Final Project demonstrates the provisioning of cloud infrastru
 The project structure is organized as follows:
 ```shell
 
-iti_terraform_final_project/
-│
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── modules/
-│   ├── ec2/
-│   │   ├── ec2.tf
-│   │   └── variables.tf
-│   ├── s3/
-│   │   ├── s3.tf
-│   │   └── variables.tf
-│   ├── dynamodb/
-│   │   ├── dynamodb.tf
-│   │   └── variables.tf
-│   └── networks/
-│       ├── vpc.tf
-│       ├── subnets.tf
-│       ├── routetable.tf
-│       ├── securitygroup.tf
-│       ├── igw.tf
-│       └── variables.tf
-└── README.md
+.
+├── modules
+│   ├── dynamodb
+│   │   ├── dynamodb.tf
+│   │   └── variables.tf
+│   ├── ec2
+│   │   ├── ec2.tf
+│   │   └── variables.tf
+│   ├── networks
+│   │   ├── igw.tf
+│   │   ├── routetable.tf
+│   │   ├── securitygroup.tf
+│   │   ├── subnets.tf
+│   │   ├── variables.tf
+│   │   └── vpc.tf
+│   └── s3
+│       ├── s3.tf
+│       └── variables.tf
+├── project1
+│   ├── main.tf
+│   ├── provider.tf
+│   ├── terraform.tfvars
+│   └── variables.tf
+└── project2
+    ├── main.tf
+    ├── provider.tf
+    ├── terraform.tfvars
+    └── variables.tf
 ```
 # Modules
 
