@@ -48,7 +48,46 @@ iti_terraform_final_project/
 
 The project consists of the following modules:
 
-EC2 Module: Manages EC2 instances.
-S3 Module: Manages S3 buckets.
+1. Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
+   
+2. EC2 Module: Manages EC2 instances.
 
+3. S3 Module: Manages S3 buckets.
 
+4. ynamoDB Module: Manages DynamoDB tables.
+
+# Usage
+
+To use the project, follow these steps:
+
+1. Clone the repository:
+   
+```shell
+git clone https://github.com/nourmohamed99/iti_terraform_final_project.git
+```
+2. Navigate to the project directory:
+   
+```shell
+cd iti_terraform_final_project
+```   
+
+3. Initialize Terraform:
+   
+```shell
+terraform init
+```
+
+4. Adjust variables in terraform.tfvars and variables.tf as needed.
+
+5. plan the infrastructure:
+   
+```shell
+terraform plan
+```
+
+6. Deploy the infrastructure:
+
+```shell
+terraform apply
+```
+   
