@@ -18,5 +18,6 @@ module "ec2" {
 source = "../modules/ec2"
 ami = var.ami
 subnet_id = module.networks.public
+security_group_id = module.networks.securitygroup
 ec2_name = join("-", [var.ec2name, var.region1])
 }

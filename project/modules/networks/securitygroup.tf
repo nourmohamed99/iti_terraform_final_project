@@ -30,3 +30,8 @@ resource "aws_security_group" "my_security_group" {
         Name = "project"
     }       
 }    
+
+output "securitygroup" {
+  value       = aws_security_group.my_security_group.id
+  description = "The ID of the security group"
+}
