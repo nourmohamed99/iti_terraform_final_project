@@ -18,6 +18,7 @@ The ITI Terraform Final Project demonstrates the provisioning of cloud infrastru
 # Project Structure
 
 The project structure is organized as follows:
+```shell
 
 iti_terraform_final_project/
 │
@@ -42,6 +43,7 @@ iti_terraform_final_project/
 │       ├── igw.tf
 │       └── variables.tf
 └── README.md
+```
 
 
 
