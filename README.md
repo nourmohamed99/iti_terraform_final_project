@@ -95,4 +95,16 @@ terraform plan
 ```shell
 terraform apply
 ```
-   
+7. Repeat the same steps for project2
+```shell
+cd iti_terraform_final_project/poject/project2 
+```     
+```shell
+terraform init
+```
+```shell
+terraform plan
+```   
+```shell
+terraform apply
+```
