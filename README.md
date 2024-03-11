@@ -1,25 +1,6 @@
 # iti_terraform_final_project
 
-iti_terraform_final_project/
-│
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── modules/
-│   ├── ec2/
-│   │   ├── ec2.tf
-│   │   └── variables.tf
-│   ├── s3/
-│   │   ├── s3.tf
-│   │   └── variables.tf
-│   ├── dynamodb/
-│   │   ├── dynamodb.tf
-│   │   └── variables.tf
-│   └── networks/
-│       ├── vpc.tf
-│       ├── subnets.tf
-│       ├── routetable.tf
-│       ├── securitygroup.tf
-│       ├── igw.tf
-│       └── variables.tf
-└── README.md
+EC2 Module: Creates EC2 instances.
+S3 Module: Manages S3 buckets.
+DynamoDB Module: Manages DynamoDB tables.
+Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
