@@ -10,3 +10,9 @@ This project is the final assignment for the Terraform course at the Information
 2. Project Structure
 3. Modules
 4. Usage
+
+# Project Description
+
+The ITI Terraform Final Project demonstrates the provisioning of cloud infrastructure using Terraform. The project includes modules for creating EC2 instances, S3 buckets, DynamoDB tables, and managing network configurations such as VPCs, subnets, route tables, and security groups.
+
+
