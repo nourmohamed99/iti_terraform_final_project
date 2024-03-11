@@ -20,8 +20,6 @@ The ITI Terraform Final Project demonstrates the provisioning of cloud infrastru
 
 The project structure is organized as follows:
 
-This structure separates your Terraform code into modules, each handling a specific aspect of your infrastructure.
-
 ```shell
 
 ── project
@@ -56,6 +54,8 @@ This structure separates your Terraform code into modules, each handling a speci
 # Modules
 
 The project consists of the following modules:
+
+This structure separates your Terraform code into modules, each handling a specific aspect of your infrastructure.
 
 1. Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
    
