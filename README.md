@@ -59,7 +59,7 @@ The project consists of the following modules:
 
 3. S3 Module: Manages S3 buckets.
 
-4. ynamoDB Module: Manages DynamoDB tables.
+4. DynamoDB Module: Manages DynamoDB tables.
 
 # Usage
 
@@ -73,7 +73,7 @@ git clone https://github.com/nourmohamed99/iti_terraform_final_project.git
 2. Navigate to the project directory:
    
 ```shell
-cd iti_terraform_final_project
+cd iti_terraform_final_project/poject/project1 
 ```   
 
 3. Initialize Terraform:
