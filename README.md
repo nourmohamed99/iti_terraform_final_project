@@ -57,7 +57,7 @@ This structure separates your Terraform code into modules, each handling a speci
 
 The project consists of the following modules:
 
-1. Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
+1. Networks Module: Manages VPC, subnets, route tables, security group, and internet gateway.
    
 2. EC2 Module: Manages EC2 instances.
 
@@ -113,4 +113,13 @@ terraform plan
 terraform apply
 ```
 # output
+
+In the first deployment (project1), the Terraform project successfully provisioned the following resources in the specified region:
+
+1. EC2 instances
+2. S3 buckets
+3. DynamoDB tables
+4. Networking components (VPC, subnets, route tables, security group, internet gateway)
+
+All resources were deployed in the region specified in the provider.tf file, ensuring consistency and centralized management of the infrastructure."
 
