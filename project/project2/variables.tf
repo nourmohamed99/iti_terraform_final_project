@@ -3,10 +3,7 @@ variable "ami" {
     type= string 
 }
 
-variable "instance_type" {
-    description= "to define the instance_type of ec2 instance"
-    type= string 
-}
+
 variable "region2" {
     description= "to define the ec2 region"
     type= string 

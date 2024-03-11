@@ -12,6 +12,8 @@ dynamodb_name = var.dynamodb_table_name
 
 module "networks" {
   source = "../modules/networks"
+  availability_zone_a = var.availability_zone_a
+  availability_zone_b = var.availability_zone_b
 }
 
 module "ec2" {
