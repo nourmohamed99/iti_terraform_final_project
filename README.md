@@ -1,6 +1,3 @@
 # iti_terraform_final_project
-
-EC2 Module: Creates EC2 instances.
-S3 Module: Manages S3 buckets.
-DynamoDB Module: Manages DynamoDB tables.
-Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
+Overview
+This project is the final assignment for the Terraform course at the Information Technology Institute (ITI) intake 44. It aims to demonstrate the use of Terraform to provision and manage infrastructure on cloud platforms.
