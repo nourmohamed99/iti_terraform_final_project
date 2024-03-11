@@ -49,7 +49,6 @@ iti_terraform_final_project/
 The project consists of the following modules:
 
 EC2 Module: Manages EC2 instances.
-
 S3 Module: Manages S3 buckets.
 
 
