@@ -19,6 +19,7 @@ The ITI Terraform Final Project demonstrates the provisioning of cloud infrastru
 # Project Structure
 
 The project structure is organized as follows:
+This structure separates your Terraform code into modules, each handling a specific aspect of your infrastructure.
 ```shell
 
 ── project
