@@ -53,9 +53,9 @@ The project structure is organized as follows:
 ```
 # Modules
 
-The project consists of the following modules:
-
 This structure separates your Terraform code into modules, each handling a specific aspect of your infrastructure.
+
+The project consists of the following modules:
 
 1. Networks Module: Manages VPC, subnets, route tables, security groups, and internet gateways.
    
