@@ -10,6 +10,7 @@ This project is the final assignment for the Terraform course at the Information
 2. Project Structure
 3. Modules
 4. Usage
+5. output
 
 # Project Description
 
@@ -108,3 +109,5 @@ terraform plan
 ```shell
 terraform apply
 ```
+# output
+
