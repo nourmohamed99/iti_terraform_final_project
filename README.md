@@ -20,7 +20,7 @@ The ITI Terraform Final Project demonstrates the provisioning of cloud infrastru
 The project structure is organized as follows:
 ```shell
 
-.
+── project
 ├── modules
 │   ├── dynamodb
 │   │   ├── dynamodb.tf
