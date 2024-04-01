@@ -78,7 +78,7 @@ git clone https://github.com/nourmohamed99/iti_terraform_final_project.git
 2. Navigate to the project directory:
    
 ```shell
-cd iti_terraform_final_project/poject/project1 
+cd iti_terraform_final_project/project1 
 ```   
 
 3. Initialize Terraform:
@@ -104,7 +104,7 @@ This command will prompt you to confirm the creation of the resources. Enter yes
 
 7. Repeat the same steps in project2
 ```shell
-cd iti_terraform_final_project/poject/project2 
+cd iti_terraform_final_project/project2 
 ```     
 ```shell
 terraform init
